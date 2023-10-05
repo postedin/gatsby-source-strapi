@@ -1,0 +1,53 @@
+{
+  "name": "@postedin/gatsby-source-strapi",
+  "version": "4.0.0-alpha",
+  "description": "Gatsby source plugin for building websites using Strapi as a data source",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "strapi"
+  ],
+  "scripts": {
+    "watch": "tsc-watch --outDir .",
+    "build": "tsc --outDir .",
+    "prepare": "cross-env NODE_ENV=production npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postedin/gatsby-source-strapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/postedin/gatsby-source-strapi/issues"
+  },
+  "homepage": "https://github.com/postedin/gatsby-source-strapi/blob/main/README.md",
+  "author": "Robert Clancy <robbo.clancy@gmail.com>",
+  "contributors": [
+    "Laurens Kling <laurens@goedideemeida.nl>",
+    "Strapi Solutions <hi@strapi.io>"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@types/node": "^20.8.2",
+    "@types/node-fetch": "^2.6.6",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "prettier": "^3.0.3",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.1",
+    "gatsby-core-utils": "^4.12.0",
+    "gatsby-plugin-utils": "^4.12.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2"
+  }
+}

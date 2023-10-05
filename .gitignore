@@ -14,3 +14,10 @@ gatsby-types.d.ts
 !.yarn/versions
 
 .idea
+
+*.js
+*.js.map
+*.d.ts
+!/types/*.d.ts
+
+!jest.config.js
