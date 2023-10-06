@@ -15,9 +15,4 @@ gatsby-types.d.ts
 
 .idea
 
-src/*.js
-src/*.js.map
-src/*.d.ts
-!/types/*.d.ts
-
-!jest.config.js
+/dist
